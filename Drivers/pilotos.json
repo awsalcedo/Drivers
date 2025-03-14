@@ -1,0 +1,84 @@
+{
+  "pilotos": [
+    {
+      "id": 1,
+      "nombre": "Lewis Hamilton",
+      "equipo": "Mercedes",
+      "nacionalidad": "Británico",
+      "edad": 38,
+      "imagen": "https://ejemplo.com/lewis_hamilton.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Max Verstappen",
+      "equipo": "Red Bull Racing",
+      "nacionalidad": "Neerlandés",
+      "edad": 25,
+      "imagen": "https://ejemplo.com/max_verstappen.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Charles Leclerc",
+      "equipo": "Ferrari",
+      "nacionalidad": "Monegasco",
+      "edad": 25,
+      "imagen": "https://ejemplo.com/charles_leclerc.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Sergio Pérez",
+      "equipo": "Red Bull Racing",
+      "nacionalidad": "Mexicano",
+      "edad": 33,
+      "imagen": "https://ejemplo.com/sergio_perez.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "George Russell",
+      "equipo": "Mercedes",
+      "nacionalidad": "Británico",
+      "edad": 25,
+      "imagen": "https://ejemplo.com/george_russell.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Carlos Sainz",
+      "equipo": "Ferrari",
+      "nacionalidad": "Español",
+      "edad": 28,
+      "imagen": "https://ejemplo.com/carlos_sainz.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Lando Norris",
+      "equipo": "McLaren",
+      "nacionalidad": "Británico",
+      "edad": 23,
+      "imagen": "https://ejemplo.com/lando_norris.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Fernando Alonso",
+      "equipo": "Aston Martin",
+      "nacionalidad": "Español",
+      "edad": 42,
+      "imagen": "https://ejemplo.com/fernando_alonso.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Esteban Ocon",
+      "equipo": "Alpine",
+      "nacionalidad": "Francés",
+      "edad": 26,
+      "imagen": "https://ejemplo.com/esteban_ocon.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Pierre Gasly",
+      "equipo": "Alpine",
+      "nacionalidad": "Francés",
+      "edad": 27,
+      "imagen": "https://ejemplo.com/pierre_gasly.jpg"
+    }
+  ]
+}
