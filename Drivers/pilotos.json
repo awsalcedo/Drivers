@@ -6,15 +6,15 @@
       "equipo": "Mercedes",
       "nacionalidad": "Británico",
       "edad": 38,
-      "imagen": "https://ejemplo.com/lewis_hamilton.jpg"
+      "imagen": "hamilton"
     },
     {
       "id": 2,
       "nombre": "Max Verstappen",
       "equipo": "Red Bull Racing",
       "nacionalidad": "Neerlandés",
-      "edad": 25,
-      "imagen": "https://ejemplo.com/max_verstappen.jpg"
+      "edad": 27,
+      "imagen": "verstappen"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "equipo": "Ferrari",
       "nacionalidad": "Monegasco",
       "edad": 25,
-      "imagen": "https://ejemplo.com/charles_leclerc.jpg"
+      "imagen": "leclerc"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "equipo": "Red Bull Racing",
       "nacionalidad": "Mexicano",
       "edad": 33,
-      "imagen": "https://ejemplo.com/sergio_perez.jpg"
+      "imagen": "lawson"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "equipo": "Mercedes",
       "nacionalidad": "Británico",
       "edad": 25,
-      "imagen": "https://ejemplo.com/george_russell.jpg"
+      "imagen": "russell"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "equipo": "Ferrari",
       "nacionalidad": "Español",
       "edad": 28,
-      "imagen": "https://ejemplo.com/carlos_sainz.jpg"
+      "imagen": "hadjar"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "equipo": "McLaren",
       "nacionalidad": "Británico",
       "edad": 23,
-      "imagen": "https://ejemplo.com/lando_norris.jpg"
+      "imagen": "norris"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "equipo": "Aston Martin",
       "nacionalidad": "Español",
       "edad": 42,
-      "imagen": "https://ejemplo.com/fernando_alonso.jpg"
+      "imagen": "alonso"
     },
     {
       "id": 9,
@@ -70,15 +70,15 @@
       "equipo": "Alpine",
       "nacionalidad": "Francés",
       "edad": 26,
-      "imagen": "https://ejemplo.com/esteban_ocon.jpg"
+      "imagen": "ocon"
     },
     {
       "id": 10,
-      "nombre": "Pierre Gasly",
+      "nombre": "Nico Hulkenberg",
       "equipo": "Alpine",
       "nacionalidad": "Francés",
       "edad": 27,
-      "imagen": "https://ejemplo.com/pierre_gasly.jpg"
+      "imagen": "hulkenberg"
     }
   ]
 }
