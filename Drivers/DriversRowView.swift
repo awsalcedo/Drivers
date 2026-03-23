@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DriversRowView: View {
-    let drivers: [Driver]
+    @State var drivers: [Driver]
     
     var body: some View {
         List {
@@ -16,6 +16,9 @@ struct DriversRowView: View {
                 NavigationLink(value: driver) {
                     DriverRowView(driver: driver)
                 }
+            }
+            .onDelete { indexSet in
+                drivers.remove(atOffsets: indexSet)
             }
             
         }
