@@ -1,0 +1,25 @@
+# Xcode
+DerivedData/
+build/
+
+# User data (NO subir)
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods (si usas)
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Mac
+.DS_Store
+
+# Xcode scheme management
+**/xcschememanagement.plist

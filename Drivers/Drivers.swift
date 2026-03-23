@@ -29,7 +29,7 @@ enum DriversError: Error {
     case notExist
 }
 
-struct Driver: Decodable, Identifiable {
+struct Driver: Decodable, Identifiable, Hashable {
     let id: Int
     let nombre: String
     let equipo: String

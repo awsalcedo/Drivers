@@ -13,10 +13,17 @@ struct DriversRowView: View {
     var body: some View {
         List {
             ForEach(drivers) { driver in
-                DriverRowView(driver: driver)
+                NavigationLink(value: driver) {
+                    DriverRowView(driver: driver)
+                }
             }
             
         }
+        .listStyle(.plain)
+        .navigationDestination(for: Driver.self) { driver in
+            Text("\(driver.nombre)")
+        }
+        .navigationTitle("Drivers")
     }
 }
 
@@ -66,5 +73,7 @@ struct DriverRowView: View {
 }
 
 #Preview {
-    DriversRowView(drivers: try! Drivers.cargar())
+    NavigationStack {
+        DriversRowView(drivers: try! Drivers.cargar())
+    }
 }
