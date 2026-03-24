@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol DriversListInteractorProtocol: Sendable {
+    func fetchDrivers() async throws -> DriversResponse
+}

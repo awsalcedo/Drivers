@@ -11,7 +11,8 @@ import SwiftUI
 struct DriversApp: App {
     var body: some Scene {
         WindowGroup {
-            DriversRowView(drivers: try! Drivers.cargar())
+            //DriversRowView(drivers: try! Drivers.cargar())
+            RemoteDriversView()
         }
     }
 }

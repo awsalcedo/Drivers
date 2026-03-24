@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+enum API {
+    
+    static let baseURL = "https://f1demoapp.s3.eu-west-3.amazonaws.com"
+    
+    enum Endpoints {
+        
+        // MARK: Driver List
+        
+        static let listDrivers = "/pilotos.json"
+    }
+}

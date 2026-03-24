@@ -37,14 +37,6 @@ enum DriversError: Error {
     case notExist
 }
 
-struct Driver: Decodable, Identifiable, Hashable {
-    let id: Int
-    let nombre: String
-    let equipo: String
-    let nacionalidad: String
-    let edad: Int
-    let imagen: String
-}
 
 // MARK: Private Functions
 

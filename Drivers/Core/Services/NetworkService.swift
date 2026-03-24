@@ -89,7 +89,7 @@ final class NetworkService: NetworkServiceProtocol, Sendable {
             throw NetworkError.badRequest
         case 401:
             throw NetworkError.unauthorized
-        case 404:
+        case 403, 404:
             throw NetworkError.notFound
         case 422:
             throw NetworkError.validationError

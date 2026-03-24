@@ -17,7 +17,7 @@ enum NetworkError: LocalizedError, Equatable {
     case serverError(Int)
     case unknown(Int)
     
-    var errorDescription: String? {
+    /*var errorDescription: String? {
         switch self {
         case .invalidURL:
             return "La URL no es válida."
@@ -28,7 +28,7 @@ enum NetworkError: LocalizedError, Equatable {
         case .unauthorized:
             return "No autorizado."
         case .notFound:
-            return "No se encoentró el recurso solicitado."
+            return "No se encontró el recurso solicitado."
         case .validationError:
             return "Error de validación."
         case .serverError(let code):
@@ -36,5 +36,5 @@ enum NetworkError: LocalizedError, Equatable {
         case .unknown(let code):
             return "Error desconocido (\(code)."
         }
-    }
+    }*/
 }

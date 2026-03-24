@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct DriversResponse: Codable, Sendable {
+    
+    // MARK: Properties
+    
+    let pilotos: [Driver]
+    
+}

@@ -1,7 +1,141 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@" : {
 
+    },
+    "%@ **%@**" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ **%2$@**"
+          }
+        }
+      }
+    },
+    "Australiano" : {
+
+    },
+    "COMMON_LOADING" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando..."
+          }
+        }
+      }
+    },
+    "COMMON_OK" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aceptar"
+          }
+        }
+      }
+    },
+    "COMMON_RETRY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reintentar"
+          }
+        }
+      }
+    },
+    "Drivers" : {
+
+    },
+    "Edad: %lld" : {
+
+    },
+    "ERROR_GENERIC" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo salió mal"
+          }
+        }
+      }
+    },
+    "ERROR_NETWORK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin conexión a internet"
+          }
+        }
+      }
+    },
+    "ERROR_SERVER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocurrió un problema en el servidor. Inténtalo nuevamente."
+          }
+        }
+      }
+    },
+    "ERROR_TIMEOUT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiempo de espera agotado"
+          }
+        }
+      }
+    },
+    "ERROR_TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        }
+      }
+    },
+    "ERROR_UNAUTHORIZED" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No autorizado"
+          }
+        }
+      }
+    },
+    "Hello, world!" : {
+
+    },
+    "McLaren" : {
+
+    },
+    "No hay pilotos" : {
+
+    },
+    "No se encontraron pilotos para mostrar." : {
+
+    },
+    "Oscar **Piastri**" : {
+
+    },
+    "Pilotos" : {
+
+    }
   },
   "version" : "1.1"
 }
