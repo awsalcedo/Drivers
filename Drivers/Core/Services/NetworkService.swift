@@ -79,7 +79,7 @@ final class NetworkService: NetworkServiceProtocol, Sendable {
                             
     private func validateResponse(_ response: URLResponse) throws {
         guard let httpResponse = response as? HTTPURLResponse else {
-            throw NetworkError.invalidURL
+            throw NetworkError.invalidResponse
         }
         
         switch httpResponse.statusCode {
