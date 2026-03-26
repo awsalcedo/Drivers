@@ -13,6 +13,8 @@ protocol DriversListViewModelProtocol: Observable {
     // MARK: - Properties
     
     var drivers: [Driver] {get}
+    var isLoading: Bool {get}
+    var errorMessage: String? {get}
     
     // MARK: - Functions
     
